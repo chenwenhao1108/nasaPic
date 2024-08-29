@@ -12,7 +12,7 @@ export default function Sidebar(props) {
                 <p className='descriptionTitle'>{data?.date}</p>
                 <p>{data?.explanation}</p>
             </div>
-            <button>
+            <button onClick={handleToggleModal}>
                 <i class="fa-solid fa-right-long"></i>
             </button>
         </div>
